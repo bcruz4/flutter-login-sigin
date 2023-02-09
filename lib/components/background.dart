@@ -26,14 +26,13 @@ class Background extends StatelessWidget {
               left: 0,
               child: Image.asset(
                 topImage,
-                width: 120,
               ),
             ),
-            // Positioned(
-            //   bottom: 0,
-            //   right: 0,
-            //   child: Image.asset(bottomImage, width: 120),
-            // ),
+            Positioned(
+              bottom: 0,
+              right: 0,
+              child: Image.asset(bottomImage, width: 120),
+            ),
             SafeArea(child: child),
           ],
         ),
